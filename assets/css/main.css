@@ -1,11 +1,30 @@
-.container {
+.container, .jui-top {
     padding-top: 20px;
 }
-
 .logo-text {
     background: -moz-linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
     background: -webkit-linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
     background: linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.jui-sidebar {
+    position: fixed;
+}
+.jui-nav-item {
+    padding: 5px;
+    border-bottom: 1px solid #80808020;
+}
+.jui-nav-item:hover {
+    background: #77777720;
+}
+.jui-nav-item a {
+    color: #E9E9E9
+}
+.jui-nav-item a:hover {
+    color: #E9E9E9;
+}
+.jui-nav-item a span {
+    padding-right: 10px;
+    color: #E6E6E6
 }
