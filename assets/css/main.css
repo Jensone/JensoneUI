@@ -1,0 +1,11 @@
+.container {
+    padding-top: 20px;
+}
+
+.logo-text {
+    background: -moz-linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
+    background: -webkit-linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
+    background: linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
