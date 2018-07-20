@@ -1,5 +1,5 @@
 .container, .jui-top {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .logo-text {
     background: -moz-linear-gradient(144deg, rgba(8,153,223,1) 40%, rgba(44,81,162,1) 80%);
@@ -12,8 +12,9 @@
     position: fixed;
 }
 .jui-nav-item {
-    padding: 5px;
+    padding: 2px;
     border-bottom: 1px solid #80808020;
+    font-size: .75em;
 }
 .jui-nav-item:hover {
     background: #77777720;
